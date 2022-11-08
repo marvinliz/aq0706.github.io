@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html> 
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>个人笔记</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css"/>
+    <style>
+        section {
+            display: none;
+            padding: 20px 0 0;
+            border-top: 1px solid #abc;
+        }
+
+        input {
+            display: none;
+        }
+
+        label {
+            display: inline-block;
+            margin: 0 0 -1px;
+            padding: 15px 25px;
+            font-weight: 600;
+            text-align: center;
+            color: #abc;
+            border: 1px solid transparent;
+        }
+
+        label:before {
+            font-family: fontawesome;
+            font-weight: normal;
+            margin-right: 10px;
+        }
+
+
+
+        label:hover {
+            color: #789;
+            cursor: pointer;
+        }
+
+        input:checked + label {
+            color: #0af;
+            border: 1px solid #abc;
+            border-top: 2px solid #0af;
+            border-bottom: 1px solid #fff;
+        }
+
+        #tab1:checked ~ #content1,
+        #tab2:checked ~ #content2,
+        #tab3:checked ~ #content3,
+        #tab4:checked ~ #content4,
+        #tab5:checked ~ #content5,
+        #tab6:checked ~ #content6,
+        #tab7:checked ~ #content7,
+        #tab8:checked ~ #content8, 
+        #tab9:checked ~ #content9,
+        #tab10:checked ~ #content10,
+        #tab11:checked ~ #content11,
+        #tab12:checked ~ #content12,
+        #tab13:checked ~ #content13,
+        #tab14:checked ~ #content14,
+        #tab15:checked ~ #content15,
+        #tab16:checked ~ #content16,
+        #tab17:checked ~ #content17,
+        #tab18:checked ~ #content18, 
+        #tab19:checked ~ #content19,
+        #tab20:checked ~ #content20,
+        #tab21:checked ~ #content21,
+        #tab22:checked ~ #content22  {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>个人笔记</h1>
+    </div>
+</div>
+<div id="content" class="container">
+
+        <input id="tab4" type="radio" name="tabs" checked>
+        <label for="tab4">2021</label>
+    
+    
+        <input id="tab5" type="radio" name="tabs" checked>
+        <label for="tab5">2022</label>
+    
+    
+    <section id="content4">
+        <h3>目录</h3>
+           <h3><b>21.04</b></h3><hr/>
+            <p><a href='./21.04/centos_常用指令.html'>centos_常用指令.html</a></p>
+            
+            <p><a href='./21.04/https_抓包.html'>https_抓包.html</a></p>
+            
+            <p><a href='./21.04/javascript_quokka.html'>javascript_quokka.html</a></p>
+            
+            <p><a href='./21.04/java_ThreadLocal.html'>java_ThreadLocal.html</a></p>
+            
+            <p><a href='./21.04/mysql_幻读.html'>mysql_幻读.html</a></p>
+            
+            <p><a href='./21.04/virtualBox_centos.html'>virtualBox_centos.html</a></p>
+               <h3><b>21.05</b></h3><hr/>
+            <p><a href='./21.05/keepalived+nginx_failover.html'>keepalived+nginx_failover.html</a></p>
+               <h3><b>21.07</b></h3><hr/>
+            <p><a href='./21.07/Java_ssl_version_suuprot.html'>Java_ssl_version_suuprot.html</a></p>
+               <h3><b>21.09</b></h3><hr/>
+            <p><a href='./21.09/Mysql_字段值大小写敏感.html'>Mysql_字段值大小写敏感.html</a></p>
+               <h3><b>21.11</b></h3><hr/>
+            <p><a href='./21.11/Java日志slf4j指定.html'>Java日志slf4j指定.html</a></p>
+            
+    </section>
+    
+    <section id="content5">
+        <h3>目录</h3>
+           <h3><b>22.07</b></h3><hr/>
+            <p><a href='./22.07/翻译_Purpose-Driven-Microservice-Design.html'>翻译_Purpose-Driven-Microservice-Design.html</a></p>
+            
+            <p><a href='./22.07/避坑_Hutool.html'>避坑_Hutool.html</a></p>
+               <h3><b>22.11</b></h3><hr/>
+            <p><a href='./22.11/https.html'>https.html</a></p>
+            
+    </section>
+    
+</div>
+</body>
+</html>
